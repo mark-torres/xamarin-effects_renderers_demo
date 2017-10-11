@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	Title="Slider"
+	Padding="16"
+	x:Class="ControlsDemo.SliderPage">
+	<ContentPage.Content>
+		<ScrollView Orientation="Vertical">
+			<StackLayout Orientation="Vertical">
+
+				<Label Text="Example 1: Simple slider" FontSize="Small"/>
+				<Slider Margin="20,0,20,0" x:Name="slider1" 
+					Maximum="30"
+					Minimum="0"
+					Value="5"
+					ValueChanged="Slider1_ValueChanged"/>
+				<Label x:Name="labelSlider1" Text="Current value: ?" FontSize="Small"/>
+
+				<BoxView HeightRequest="1" BackgroundColor="Silver"/>
+
+				<Label Text="Example 2: Apply effects" FontSize="Small"/>
+				<Slider Margin="20,0,20,0" x:Name="slider2"
+					Maximum="30"
+					Minimum="0"
+					Value="5"
+					ValueChanged="Slider2_ValueChanged"/>
+				<Label x:Name="labelSlider2" Text="Current value: ?" FontSize="Small"/>
+
+				<BoxView HeightRequest="1" BackgroundColor="Silver"/>
+				
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
