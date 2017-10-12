@@ -36,6 +36,9 @@ namespace ControlsDemo.iOS
 		protected override void OnAttached()
 		{
 			var slider = Control as UISlider;
+			var thumb = UIImage.FromBundle("burger_ocean.png");
+			slider.SetThumbImage(thumb, UIControlState.Normal);
+			slider.SetThumbImage(thumb, UIControlState.Highlighted);
 		}
 
 		protected override void OnDetached()
