@@ -11,15 +11,15 @@
 
 				<Label Text="Example 1: Simple slider" FontSize="Small"/>
 				<Slider Margin="20,0,20,0" x:Name="slider1" 
-					Maximum="30"
+					Maximum="5"
 					Minimum="0"
-					Value="5"
+					Value="1"
 					ValueChanged="Slider1_ValueChanged"/>
 				<Label x:Name="labelSlider1" Text="Current value: ?" FontSize="Small"/>
 
 				<BoxView HeightRequest="1" BackgroundColor="Silver"/>
 
-				<Label Text="Example 2: Apply effects" FontSize="Small"/>
+				<Label Text="Example 2: Basic color effects" FontSize="Small"/>
 				<Slider Margin="20,0,20,0" x:Name="slider2"
 					Maximum="30"
 					Minimum="0"
@@ -27,6 +27,16 @@
 					ValueChanged="Slider2_ValueChanged"/>
 				<Label x:Name="labelSlider2" Text="Current value: ?" FontSize="Small"/>
 
+				<BoxView HeightRequest="1" BackgroundColor="Silver"/>
+
+				<Label Text="Example 3: Thumb and track effects" FontSize="Small"/>
+				<Slider Margin="20,0,20,0" x:Name="slider3"
+					Maximum="30"
+					Minimum="0"
+					Value="5"
+					ValueChanged="Slider3_ValueChanged"/>
+				<Label x:Name="labelSlider3" Text="Current value: ?" FontSize="Small"/>
+				
 				<BoxView HeightRequest="1" BackgroundColor="Silver"/>
 				
 			</StackLayout>

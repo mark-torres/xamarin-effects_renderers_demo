@@ -104,9 +104,15 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\burger_aqua.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\burger_aqua.png.imageset\burger_aqua.png" />
+    <ImageAsset Include="Assets.xcassets\burger_ocean.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\burger_ocean.png.imageset\burger_ocean.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\burger_aqua.png.imageset\" />
+    <Folder Include="Assets.xcassets\burger_ocean.png.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -119,7 +125,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="EffectRedSlider.cs" />
+    <Compile Include="Effects.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.4.0.282\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.282\build\netstandard1.0\Xamarin.Forms.targets')" />
